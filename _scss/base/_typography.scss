@@ -1,0 +1,40 @@
+.wf-loading h1 { visibility: hidden; }
+.wf-active h1, 
+.wf-inactive h1 { visibility: visible; font-family: 'Open Sans'; }
+
+ul.content-list {
+
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+
+	li {
+
+		list-style-type: none;
+		position: relative;
+		padding-left: 1em;
+		margin-bottom: 1em;
+
+		&:before { 
+			
+			content: '';
+			position: absolute;
+			top: 7px;
+			left: 0;
+			display: inline-block;
+			height: 12px;
+			width: 8px;
+			background-image: url(img/ui/list-arrow.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+
+		}// &:before
+
+		&:last-of-type {
+
+			margin-bottom: 0;
+
+		}// &:last-of-type
+
+	}// li
+
+}// ul

@@ -1,0 +1,54 @@
+section {
+
+	position: relative;
+    perspective: 2px;
+
+	&.bg-blue {
+		
+		background-color: $color-1;
+
+		h1, p {
+
+			color: $white;
+
+		}
+
+	}
+	&.bg-black {
+		
+		background-color: $black;
+
+		h1, h2, h3, h4, h5, h6, p, li {
+
+			color: $white;
+
+		}
+
+	}	
+	&.bg-grey {
+		
+		background-color: $grey-color;
+
+	}
+	&.bg-white {
+		
+		background-color: $white;
+
+	}
+	&.bg-white,
+	&.bg-grey {
+
+		h1 {
+			
+			color: $heading-color;
+
+		}
+		p {
+
+			color: $body-color;
+
+		}
+
+	}		
+
+}

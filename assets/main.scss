@@ -1,0 +1,38 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@charset "utf-8";
+
+$white: #fff;
+
+// Our variables
+$base-font-family:    "Open Sans", Helvetica, Arial, sans-serif;
+$base-font-size:      1.6rem;
+$base-font-weight:    400;
+$base-letter-spacing: 0.05rem;
+$small-font-size:     $base-font-size * 0.875;
+$base-line-height:    1.8rem;
+
+$color-1: #13AAE5; // Light blue
+$color-2: #344455; // Dark blue (Headings)
+$color-3: #19293A; // Darkest Blue (Body)
+
+$grey-color: #F3F4F7; // light grey
+
+$text-color: $color-3;
+$heading-color: $color-2;
+$link-color: $color-1;
+
+// import bootstrap
+@import "bootstrap/bootstrap";
+
+// import base
+@import "base/body";
+@import "base/typography";
+@import "base/themes";
+
+// import helpers
+// @import "helpers/mixins";
+// @import "helpers/helpers";
+// @import "helpers/animations";
