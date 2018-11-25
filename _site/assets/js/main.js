@@ -25,6 +25,7 @@ main.Common = {
 
 		}
 		main.Common.sectionKeyNav();
+		main.Common.waypointsAnimation();
 	},
 
 	// Keyboard navigation between sections
@@ -67,8 +68,17 @@ main.Common = {
 			}
 
 		});	
-	}
+	},
 
+	waypointsAnimation: function() {
+		$('.animated').css('opacity', 0);
+
+		$('.animated').waypoint(function() {
+			$('.animated').addClass('fadeInLeft');
+		}, { offset: '50%' });
+
+	}
+	
 };
 
 // homepage scripts

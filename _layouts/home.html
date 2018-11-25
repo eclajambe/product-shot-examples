@@ -46,10 +46,10 @@ layout: default
 </section><!--// section -->
 
 <section id="Example3" class="py-10 container-fluid">
-	<span class="example-tag">Large drop shadow</span>
+	<span class="example-tag">Animate-in + Large drop shadow</span>
 	<div class="row row-primary align-items-center">
 		<div class="col-sm-6 offset-sm-3 col-md-6 offset-md-1 col-lg-3 offset-lg-1 text-center">
-			<div class="shot long-shadow animated fadeInLeft">
+			<div class="shot long-shadow animated">
 				<img src="{{ "/assets/img/devices/device-mock.svg" | relative_url }}" />
 			</div><!--// .device -->
 		</div><!--// .col -->		
@@ -102,11 +102,29 @@ layout: default
 		</div><!--// .col -->	
 		<div class="perspective-shot motion-loop scale-2 col-sm-6 offset-sm-3 col-md-6 offset-md-1 col-lg-3 offset-lg-3 text-center">
 			<div class="shot no-shadow">
-				<img src="{{ "/assets/img/exploded-ui/expense-receipts@2x.png" | relative_url }}" />
+				<img src="{{ "/assets/img/exploded-ui/expense-receipts@3x.png" | relative_url }}" />
 			</div><!--// .device -->
 		</div><!--// .col -->
 	</div><!--// .row -->
 </section><!--// section -->
+
+<section id="Example6" class="py-10 container-fluid">
+	<span class="example-tag">Animate-in + Large drop shadow</span>
+	<div class="row row-primary align-items-center">
+		<div class="col-sm-6 text-center">
+			<div class="shot no-shadow">
+				<img src="{{ "/assets/img/exploded-ui/NewBigReceipt.svg" | relative_url }}" />
+			</div><!--// .device -->
+		</div><!--// .col -->		
+		<div class="col-sm-5 offset-sm-1">
+			<h1 class="mb-5">View your receipt alongside your expense.</h1>
+			<p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p> 		
+			<a href="#" class="btn btn-primary">Learn More</a>
+			<a href="#" class="btn">Check it</a>
+		</div><!--// .col -->	
+	</div><!--// .row -->
+</section><!--// section -->
+
 
 <style>
 section {
@@ -122,6 +140,19 @@ section {
     background-color: #FFF;
 	border: 1px solid #efefef;
 	border-bottom-right-radius: 2px;
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-10%, 0, 0) scale(.95);
+    transform: translate3d(-10%, 0, 0) , scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+  }
 }
 .overflow-hidden {
 	overflow: hidden;
