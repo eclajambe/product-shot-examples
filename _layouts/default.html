@@ -23,14 +23,14 @@ layout: compress
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.1/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.1/lottie.js"></script>
     <script>
-    lottie.loadAnimation({
-      container: document.getElementById('bm'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: '/assets/bm/data.json' // the path to the animation json
+      lottie.loadAnimation({
+        container: document.getElementById('bm'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/assets/bm/data.json'
     });
     </script>
     <script src="{{ "/assets/js/lib/" | relative_url }}svg4everybody.min.js"></script>
