@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="383px" height="83px" viewBox="0 0 383 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Controls / Buttons / 1 Button - Primary</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.2%" y="-1.7%" width="106.4%" height="103.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="375" height="75"></rect>
+        <rect id="path-4" x="0" y="0" width="359" height="59" rx="3"></rect>
+    </defs>
+    <g id="Modules" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ExpenseProductShotPrototype_ExplodedHoverAction" transform="translate(-977.000000, -700.000000)">
+            <g id="col-right" filter="url(#filter-1)" transform="translate(981.000000, 89.000000)">
+                <g id="device-mock">
+                    <g id="ReportExpenses">
+                        <g id="ReportExpensesBezel">
+                            <g id="Group">
+                                <g id="Controls-/-Buttons-/-1-Button---Primary" transform="translate(0.000000, 613.000000)">
+                                    <g id="Background">
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-2"></use>
+                                        <g id="19---White" mask="url(#mask-3)" fill="#FFFFFF">
+                                            <rect id="White" x="0" y="0" width="375" height="75"></rect>
+                                        </g>
+                                    </g>
+                                    <g id="Controls-/-Buttons-/-_Resources-/-Primary-Button" transform="translate(8.000000, 8.000000)">
+                                        <g id="Background" stroke-width="1" fill-rule="evenodd">
+                                            <mask id="mask-5" fill="white">
+                                                <use xlink:href="#path-4"></use>
+                                            </mask>
+                                            <g id="Mask"></g>
+                                            <g id="02---Concur-Blue" mask="url(#mask-5)" fill="#0078C8">
+                                                <rect id="Concur-Blue" x="0" y="0" width="359" height="59"></rect>
+                                            </g>
+                                        </g>
+                                        <text id="Label" font-family="SFProText-Regular, SF Pro Text" font-size="17" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="151.322998" y="35.5">Submit</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Table-View-/-_Accessories-/-_Border-/-Line---Light-Grey" fill="#DBE1E6">
+                                        <g id="17---Light-Grey">
+                                            <rect id="Light-Grey" x="0" y="0" width="375" height="1"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

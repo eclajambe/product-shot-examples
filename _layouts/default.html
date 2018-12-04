@@ -46,5 +46,59 @@ layout: compress
       {% endfor %}
     {% endif %}
     <script src="{{ "/assets/js/" | relative_url }}main.js"></script>
+<script>
+$( ".ix-context .ix-1" ).addClass('active');
+$( ".ix-visual .ix-1" ).addClass('active');
+$( ".ix-context .ix-1" ).hover(
+  function() {
+    $( this ).addClass( "active" );
+    $( this ).siblings().removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-2, .ix-3' ).removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-1' ).addClass( "active" );
+  }
+);
+$( ".ix-context .ix-2" ).hover(
+  function() {
+    $( this ).addClass( "active" );
+    $( this ).siblings().removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-1, .ix-3' ).removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-2' ).addClass( "active" );
+  }
+);
+$( ".ix-context .ix-3" ).hover(
+  function() {
+    $( this ).addClass( "active" );
+    $( this ).siblings().removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-1, .ix-2' ).removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-3' ).addClass( "active" );
+  }
+);
+
+$( ".ix-visual .ix-1" ).hover(
+  function() {
+    $( this ).addClass( "active" );
+    $( this ).parent().siblings().find( '.ix-1' ).addClass( "active" );
+    $( this ).siblings().removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-2, .ix-3' ).removeClass( "active" );
+  }
+);
+$( ".ix-visual .ix-2" ).hover(
+  function() {
+    $( this ).addClass( "active" );
+    $( this ).parent().siblings().find( '.ix-2' ).addClass( "active" );
+    $( this ).siblings().removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-1, .ix-3' ).removeClass( "active" );
+  }
+);
+$( ".ix-visual .ix-3" ).hover(
+  function() {
+    $( this ).addClass( "active" );
+    $( this ).parent().siblings().find( '.ix-3' ).addClass( "active" );
+    $( this ).siblings().removeClass( "active" );
+    $( this ).parent().siblings().find( '.ix-1, .ix-2' ).removeClass( "active" );
+  }
+);
+</script>
+
   </body>
 </html>

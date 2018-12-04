@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="383px" height="182px" viewBox="0 0 383 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Table View / Headers and Footers / Report / Header - One line with Tag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.2%" y="-1.7%" width="106.4%" height="103.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="375" height="50"></rect>
+        <path d="M4,0 L339,0 C341.209139,-3.17995656e-14 343,1.790861 343,4 L343,24 C343,26.209139 341.209139,28 339,28 L4,28 C1.790861,28 2.705415e-16,26.209139 0,24 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z M4,1 C2.34314575,1 1,2.34314575 1,4 L1,24 C1,25.6568542 2.34314575,27 4,27 L339,27 C340.656854,27 342,25.6568542 342,24 L342,4 C342,2.34314575 340.656854,1 339,1 L4,1 Z" id="path-4"></path>
+        <rect id="path-6" x="0" y="0" width="341" height="26" rx="3"></rect>
+        <rect id="path-8" x="0" y="0" width="22" height="22"></rect>
+        <path d="M3,0 L94,4.4408921e-16 C95.6568542,-7.21818092e-15 97,1.34314575 97,3 L97,17 C97,18.6568542 95.6568542,20 94,20 L3,20 C1.34314575,20 6.46995335e-16,18.6568542 4.4408921e-16,17 L4.4408921e-16,3 C2.41183085e-16,1.34314575 1.34314575,7.48448398e-16 3,4.4408921e-16 Z M3,1 C1.8954305,1 1,1.8954305 1,3 L1,17 C1,18.1045695 1.8954305,19 3,19 L94,19 C95.1045695,19 96,18.1045695 96,17 L96,3 C96,1.8954305 95.1045695,1 94,1 L3,1 Z" id="path-10"></path>
+    </defs>
+    <g id="Modules" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ExpenseProductShotPrototype_ExplodedHoverAction" transform="translate(-977.000000, -171.000000)">
+            <g id="col-right" filter="url(#filter-1)" transform="translate(981.000000, 89.000000)">
+                <g id="device-mock">
+                    <g id="ReportExpenses">
+                        <g id="ReportExpensesBezel">
+                            <g id="Group">
+                                <g id="Table-View-/-Headers-and-Footers-/-Report-/-Header---One-line-with-Tag" transform="translate(0.000000, 84.000000)">
+                                    <g id="19---White" fill="#FFFFFF">
+                                        <rect id="White" x="0" y="0" width="375" height="174"></rect>
+                                    </g>
+                                    <g id="Table-View-/-_Accessories-/-_Border-/-Line---Light-Grey" transform="translate(0.000000, 173.000000)" fill="#DBE1E6">
+                                        <g id="17---Light-Grey">
+                                            <rect id="Light-Grey" x="0" y="0" width="375" height="1"></rect>
+                                        </g>
+                                    </g>
+                                    <g id="Content">
+                                        <g id="Controls-/-Segmented-Control-/-2-Segments" transform="translate(0.000000, 116.000000)">
+                                            <g id="Background">
+                                                <mask id="mask-3" fill="white">
+                                                    <use xlink:href="#path-2"></use>
+                                                </mask>
+                                                <use id="Mask" fill="#FFFFFF" xlink:href="#path-2"></use>
+                                                <g id="19---White" mask="url(#mask-3)" fill="#FFFFFF">
+                                                    <rect id="White" x="0" y="0" width="375" height="50"></rect>
+                                                </g>
+                                            </g>
+                                            <g id="Line" transform="translate(0.000000, 49.000000)"></g>
+                                            <g id="Controls-/-Segmented-Control-/-_Accessories-/-3-Buttons-on-Light" transform="translate(16.000000, 11.000000)">
+                                                <g id="Background">
+                                                    <mask id="mask-5" fill="white">
+                                                        <use xlink:href="#path-4"></use>
+                                                    </mask>
+                                                    <g id="Combined-Shape"></g>
+                                                    <g id="02---Concur-Blue" mask="url(#mask-5)" fill="#0078C8">
+                                                        <rect id="Concur-Blue" x="0" y="0" width="343" height="28"></rect>
+                                                    </g>
+                                                </g>
+                                                <g id="Content" transform="translate(1.000000, 1.000000)">
+                                                    <mask id="mask-7" fill="white">
+                                                        <use xlink:href="#path-6"></use>
+                                                    </mask>
+                                                    <g id="Mask"></g>
+                                                    <g id="Controls-/-Segmented-Control-/-_Accessories-/-_Resources-/-Button-on-Light" mask="url(#mask-7)">
+                                                        <g transform="translate(227.000000, -1.000000)">
+                                                            <g id="19---White" fill-rule="evenodd">
+                                                                <rect id="White" fill="#FFFFFF" x="0" y="0" width="114" height="28"></rect>
+                                                            </g>
+                                                            <text id="Label" font-family="SFProText-Regular, SF Pro Text" font-size="13" font-weight="normal" line-spacing="18" letter-spacing="-0.078">
+                                                                <tspan x="31.6502115" y="17" fill="#0078C8">Receipts</tspan>
+                                                            </text>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Controls-/-Segmented-Control-/-_Accessories-/-_Resources-/-Button-Active-on-Light" mask="url(#mask-7)">
+                                                        <g transform="translate(114.000000, -1.000000)">
+                                                            <g id="02---Concur-Blue" fill-rule="evenodd">
+                                                                <rect id="Concur-Blue" fill="#0078C8" x="0" y="0" width="113" height="28"></rect>
+                                                            </g>
+                                                            <text id="Label" font-family="SFProText-Regular, SF Pro Text" font-size="13" font-weight="normal" line-spacing="18" letter-spacing="-0.0780000016">
+                                                                <tspan x="27.5461309" y="17" fill="#FFFFFF">Expenses</tspan>
+                                                            </text>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Controls-/-Segmented-Control-/-_Accessories-/-_Resources-/-Separator-on-Light" mask="url(#mask-7)">
+                                                        <g transform="translate(226.500000, -1.000000)" id="02---Concur-Blue">
+                                                            <g>
+                                                                <rect id="Concur-Blue" fill="#0078C8" x="0" y="0" width="1" height="28"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Controls-/-Segmented-Control-/-_Accessories-/-_Resources-/-Button-on-Light" mask="url(#mask-7)">
+                                                        <g transform="translate(-1.000000, -1.000000)">
+                                                            <g id="19---White" fill-rule="evenodd">
+                                                                <rect id="White" fill="#FFFFFF" x="0" y="0" width="115" height="28"></rect>
+                                                            </g>
+                                                            <text id="Label" font-family="SFProText-Regular, SF Pro Text" font-size="13" font-weight="normal" line-spacing="18" letter-spacing="-0.078">
+                                                                <tspan x="37.5709911" y="17" fill="#0078C8">Details</tspan>
+                                                            </text>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Controls-/-Segmented-Control-/-_Accessories-/-_Resources-/-Separator-on-Light" mask="url(#mask-7)">
+                                                        <g transform="translate(113.500000, -1.000000)" id="02---Concur-Blue">
+                                                            <g>
+                                                                <rect id="Concur-Blue" fill="#0078C8" x="0" y="0" width="1" height="28"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Right" transform="translate(234.000000, 0.000000)">
+                                            <text id="total-amount" font-family="SFProText-Regular, SF Pro Text" font-size="12" font-weight="normal" fill="#7F8F97">
+                                                <tspan x="53.6386719" y="63">total amount</tspan>
+                                            </text>
+                                            <text id="$-Amount" font-family="SFProText-Medium, SF Pro Text" font-size="30" font-weight="400" fill="#0078C9">
+                                                <tspan x="0.1953125" y="45">$937.09</tspan>
+                                            </text>
+                                            <g id="Controls-/-Status-flag-/-_None" transform="translate(119.000000, 0.000000)">
+                                                <mask id="mask-9" fill="white">
+                                                    <use xlink:href="#path-8"></use>
+                                                </mask>
+                                                <g id="Background"></g>
+                                            </g>
+                                        </g>
+                                        <g id="Left" transform="translate(16.000000, 20.000000)">
+                                            <g id="Controls-/-Tags-/-Outline---Not-Submitted" transform="translate(0.000000, 57.000000)">
+                                                <g id="Container">
+                                                    <g id="Tag">
+                                                        <g id="Background">
+                                                            <mask id="mask-11" fill="white">
+                                                                <use xlink:href="#path-10"></use>
+                                                            </mask>
+                                                            <g id="Mask"></g>
+                                                            <g id="16---Medium-Grey" mask="url(#mask-11)" fill="#A7B6BF">
+                                                                <rect id="Medium-Grey" x="0" y="0" width="97" height="20"></rect>
+                                                            </g>
+                                                        </g>
+                                                        <polygon id="Padding-Right" points="89.9393939 3 96 3 96 17 89.9393939 17"></polygon>
+                                                        <text id="Label" font-family="SFProText-Regular, SF Pro Text" font-size="12" font-weight="normal" fill="#A7B6BF">
+                                                            <tspan x="7.44628906" y="14">Not Submitted</tspan>
+                                                        </text>
+                                                        <rect id="Padding-Left" x="1" y="3" width="6.06060606" height="14"></rect>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <g id="Controls-/-Tags-/-Fill---_None" transform="translate(0.000000, 57.000000)"></g>
+                                            <text id="Subhead" font-family="SFProText-Regular, SF Pro Text" font-size="13" font-weight="normal" line-spacing="17" fill="#7F8F97">
+                                                <tspan x="0" y="42">March 13, 2018</tspan>
+                                            </text>
+                                            <text id="Headline" font-family="SFProText-Medium, SF Pro Text" font-size="18" font-weight="400" fill="#383F46">
+                                                <tspan x="0" y="17">March Report</tspan>
+                                            </text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

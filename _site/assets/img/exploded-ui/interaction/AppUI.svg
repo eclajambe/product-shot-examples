@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="383px" height="72px" viewBox="0 0 383 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Bars / Navigation Bar / Default on Dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.2%" y="-1.7%" width="106.4%" height="103.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="169" height="44"></rect>
+        <path d="M20.7960667,14 C20.7960667,15.6111667 22.1015667,16.9166667 23.7127333,16.9166667 C25.3239,16.9166667 26.6294,15.6111667 26.6294,14 C26.6294,12.3894167 25.3239,11.0833333 23.7127333,11.0833333 C22.1015667,11.0833333 20.7960667,12.3894167 20.7960667,14 Z M1.1669,14 C1.1669,15.6111667 2.4724,16.9166667 4.08356667,16.9166667 C5.69415,16.9166667 7.00023333,15.6111667 7.00023333,14 C7.00023333,12.3894167 5.69415,11.0833333 4.08356667,11.0833333 C2.4724,11.0833333 1.1669,12.3894167 1.1669,14 Z M13.89815,16.9166667 C12.2875667,16.9166667 10.9814833,15.6111667 10.9814833,14 C10.9814833,12.3894167 12.2875667,11.0833333 13.89815,11.0833333 C15.5093167,11.0833333 16.8148167,12.3894167 16.8148167,14 C16.8148167,15.6111667 15.5093167,16.9166667 13.89815,16.9166667 Z" id="path-4"></path>
+        <polygon id="path-6" points="12.962963 4.66666667 12.962963 12.962963 4.66666667 12.962963 4.66666667 15.037037 12.962963 15.037037 12.962963 23.3333333 15.037037 23.3333333 15.037037 15.037037 23.3333333 15.037037 23.3333333 12.962963 15.037037 12.962963 15.037037 4.66666667"></polygon>
+        <rect id="path-8" x="0" y="0" width="179" height="44"></rect>
+        <path d="M6.29215185,12.4458042 C5.90261605,12.0611888 5.90261605,11.4398102 6.29215185,11.0541958 L15.5371349,1.91733267 C16.0994648,1.36088911 17.0143745,1.36088911 17.5777032,1.91733267 C18.1400331,2.47377622 18.1400331,3.37687313 17.5777032,3.93331668 L9.66912762,11.7504995 L17.5777032,19.5656843 C18.1400331,20.1231269 18.1400331,21.0262238 17.5777032,21.5826673 C17.0143745,22.1391109 16.0994648,22.1391109 15.5371349,21.5826673 L6.29215185,12.4458042 Z" id="path-10"></path>
+        <rect id="path-12" x="0" y="0" width="104" height="20"></rect>
+        <rect id="path-14" x="0" y="0" width="30" height="16"></rect>
+        <path d="M25,4.12802928 C25.8738943,4.43690659 26.5,5.27033588 26.5,6.25 C26.5,7.22966412 25.8738943,8.06309341 25,8.37197072 L25,4.12802928 Z M-7.10542736e-15,2.99532872 C-7.10542736e-15,1.61719672 1.12537944,0.5 2.50050165,0.5 L21.4994984,0.5 C22.8804873,0.5 24,1.62360706 24,2.99532872 L24,9.50467128 C24,10.8828033 22.885738,12 21.4950088,12 L22.6526315,12 C21.2691631,12 19.035717,12 17.6569367,12 L2.49070357,12 C1.11512597,12 -7.10542736e-15,10.8763929 -7.10542736e-15,9.50467128 L-7.10542736e-15,2.99532872 Z M2.5,1.5 C1.67157288,1.5 1,2.17157288 1,3 L1,9.5 C1,10.3284271 1.67157288,11 2.5,11 L21.5,11 C22.3284271,11 23,10.3284271 23,9.5 L23,3 C23,2.17157288 22.3284271,1.5 21.5,1.5 L2.5,1.5 Z" id="path-16"></path>
+        <path d="M0,1.49594209 C0,0.945898464 0.455305576,0.5 0.99180311,0.5 L19.0081969,0.5 C19.5559546,0.5 20,0.946698666 20,1.49594209 L20,7.00405791 C20,7.55410154 19.5446944,8 19.0081969,8 L0.99180311,8 C0.444045377,8 0,7.55330133 0,7.00405791 L0,1.49594209 Z" id="path-18"></path>
+        <path d="M7.5,15 L7.5,9.17857143 L4.8,11.5 L4,10.75 L7.25833333,7.875 L4,5 L4.8,4.25 L7.5,6.57142857 L7.5,1 L12,5.25 L8.8,8 L12,10.75 L7.5,15 Z M8.5,3.5 L8.5,6.75 L10.3666667,5.25 L8.5,3.5 Z M8.5,9 L8.5,12.5 L10.3666667,10.75 L8.5,9 Z" id="path-20"></path>
+        <rect id="path-22" x="0" y="0" width="65" height="20"></rect>
+        <rect id="path-24" x="0" y="0" width="16" height="16"></rect>
+        <rect id="path-26" x="0" y="0" width="164" height="20"></rect>
+        <path d="M7.59612241,10.9644974 C8.15245387,10.582711 8.81136626,10.375 9.5,10.375 C10.1886337,10.375 10.8475461,10.582711 11.4038776,10.9644974 C11.6616578,11.141401 11.6956794,11.5088349 11.4747631,11.7300621 L9.85380192,13.3533047 C9.65848306,13.5488984 9.34151694,13.5488984 9.14619808,13.3533047 L7.52523687,11.7300621 C7.30432058,11.5088349 7.3383422,11.141401 7.59612241,10.9644974 Z M5.06597976,8.50142909 C6.29586501,7.46088497 7.85136423,6.88000011 9.49500787,6.88000011 C11.1413067,6.88000011 12.6991393,7.46277098 13.9298675,8.50636842 C14.1527103,8.69532821 14.1667508,9.03428576 13.9602991,9.24102806 L13.0793618,10.1232052 C12.897935,10.3048873 12.6083876,10.3196229 12.4094536,10.157298 C11.591707,9.49003807 10.5723439,9.11999989 9.49500787,9.11999989 C8.41989389,9.11999989 7.40249424,9.48850486 6.58553208,10.1532483 C6.38657912,10.3151318 6.09739911,10.3002148 5.91615891,10.1187196 L5.0351258,9.2364465 C4.82851861,9.02954853 4.84275997,8.69028413 5.06597976,8.50142909 Z M2.66581662,6.11893598 C4.53069212,4.44326058 6.94268377,3.5 9.5,3.5 C12.0573162,3.5 14.4693079,4.44326058 16.3341834,6.11893598 C16.5472813,6.31041411 16.556236,6.64143758 16.3538019,6.84415661 L15.4696682,7.72953463 C15.2828601,7.91660563 14.9827068,7.92592202 14.7846566,7.75079655 C13.3351218,6.46904865 11.4739445,5.75 9.5,5.75 C7.52605547,5.75 5.66487819,6.46904865 4.21534338,7.75079655 C4.01729315,7.92592202 3.71713986,7.91660563 3.53033177,7.72953463 L2.64619808,6.84415661 C2.44376396,6.64143758 2.45271875,6.31041411 2.66581662,6.11893598 Z" id="path-28"></path>
+        <path d="M15.6590909,3 L17.25,3 C17.6642136,3 18,3.33578644 18,3.75 L18,12.25 C18,12.6642136 17.6642136,13 17.25,13 L15.6590909,13 C15.2448773,13 14.9090909,12.6642136 14.9090909,12.25 L14.9090909,3.75 C14.9090909,3.33578644 15.2448773,3 15.6590909,3 Z M11.0227273,5 L12.6136364,5 C13.0278499,5 13.3636364,5.33578644 13.3636364,5.75 L13.3636364,12.25 C13.3636364,12.6642136 13.0278499,13 12.6136364,13 L11.0227273,13 C10.6085137,13 10.2727273,12.6642136 10.2727273,12.25 L10.2727273,5.75 C10.2727273,5.33578644 10.6085137,5 11.0227273,5 Z M6.38636364,7 L7.97727273,7 C8.39148629,7 8.72727273,7.33578644 8.72727273,7.75 L8.72727273,12.25 C8.72727273,12.6642136 8.39148629,13 7.97727273,13 L6.38636364,13 C5.97215007,13 5.63636364,12.6642136 5.63636364,12.25 L5.63636364,7.75 C5.63636364,7.33578644 5.97215007,7 6.38636364,7 Z M1.75,8.5 L3.34090909,8.5 C3.75512265,8.5 4.09090909,8.83578644 4.09090909,9.25 L4.09090909,12.25 C4.09090909,12.6642136 3.75512265,13 3.34090909,13 L1.75,13 C1.33578644,13 1,12.6642136 1,12.25 L1,9.25 C1,8.83578644 1.33578644,8.5 1.75,8.5 Z" id="path-30"></path>
+    </defs>
+    <g id="Modules" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ExpenseProductShotPrototype_ExplodedHoverAction" transform="translate(-977.000000, -87.000000)">
+            <g id="col-right" filter="url(#filter-1)" transform="translate(981.000000, 89.000000)">
+                <g id="device-mock">
+                    <g id="ReportExpenses">
+                        <g id="ReportExpensesBezel">
+                            <g id="Group">
+                                <g id="Bars-/-Navigation-Bar-/-Default-on-Dark">
+                                    <g id="02---Concur-Blue" fill="#0078C8">
+                                        <rect id="Concur-Blue" x="0" y="0" width="375" height="64"></rect>
+                                    </g>
+                                    <g id="Bars-/-Navigation-Bar-/-_Accessories-/-Right-/-2-Glyphs-on-Dark" transform="translate(206.000000, 20.000000)">
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <g id="Background"></g>
+                                        <g id="More" mask="url(#mask-3)">
+                                            <g transform="translate(131.000000, 8.000000)">
+                                                <mask id="mask-5" fill="white">
+                                                    <use xlink:href="#path-4"></use>
+                                                </mask>
+                                                <use id="Mask" stroke="none" fill="#A7B6BF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                                <g id="19---White" stroke="none" fill="none" mask="url(#mask-5)" fill-rule="evenodd">
+                                                    <rect id="White" fill="#FFFFFF" x="0" y="0" width="28" height="28"></rect>
+                                                </g>
+                                                <g id="_None" stroke="none" fill="none" mask="url(#mask-5)">
+                                                    <rect id="Bounding-Box" x="0" y="0" width="28" height="28"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group-2" stroke-width="1" fill-rule="evenodd" mask="url(#mask-3)">
+                                            <g transform="translate(131.000000, 8.000000)"></g>
+                                        </g>
+                                        <g id="Add" mask="url(#mask-3)">
+                                            <g transform="translate(84.000000, 8.000000)">
+                                                <mask id="mask-7" fill="white">
+                                                    <use xlink:href="#path-6"></use>
+                                                </mask>
+                                                <use id="Mask" stroke="none" fill="#A7B6BF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                                <g id="19---White" stroke="none" fill="none" mask="url(#mask-7)" fill-rule="evenodd">
+                                                    <rect id="White" fill="#FFFFFF" x="0" y="0" width="28" height="28"></rect>
+                                                </g>
+                                                <g id="_None" stroke="none" fill="none" mask="url(#mask-7)">
+                                                    <rect id="Bounding-Box" x="0" y="0" width="28" height="28"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group" stroke-width="1" fill-rule="evenodd" mask="url(#mask-3)">
+                                            <g transform="translate(84.000000, 8.000000)"></g>
+                                        </g>
+                                    </g>
+                                    <text id="Title" font-family="SFProText-Semibold, SF Pro Text" font-size="17" font-weight="500" line-spacing="22" letter-spacing="-0.408"></text>
+                                    <g id="Bars-/-Navigation-Bar-/-_Accessories-/-Left-/-Back-Arrow-on-Dark" transform="translate(0.000000, 20.000000)">
+                                        <mask id="mask-9" fill="white">
+                                            <use xlink:href="#path-8"></use>
+                                        </mask>
+                                        <g id="Background"></g>
+                                        <g id="Back" mask="url(#mask-9)">
+                                            <g transform="translate(3.000000, 10.000000)">
+                                                <mask id="mask-11" fill="white">
+                                                    <use xlink:href="#path-10"></use>
+                                                </mask>
+                                                <use id="Mask" stroke="none" fill="#A7B6BF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                                <g id="19---White" stroke="none" fill="none" mask="url(#mask-11)" fill-rule="evenodd">
+                                                    <rect id="White" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                                                </g>
+                                                <g id="_None" stroke="none" fill="none" mask="url(#mask-11)">
+                                                    <rect id="Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group" stroke-width="1" fill-rule="evenodd" mask="url(#mask-9)">
+                                            <g transform="translate(3.000000, 10.000000)"></g>
+                                        </g>
+                                    </g>
+                                    <g id="Bars-/-Status-Bar-/-Default-on-Dark">
+                                        <g id="02---Concur-Blue" fill="#0078C8" fill-rule="evenodd">
+                                            <rect id="Concur-Blue" x="0" y="0" width="375" height="20"></rect>
+                                        </g>
+                                        <g id="Bars-/-Status-Bar-/-_Accessories-/-Right-on-Dark" transform="translate(271.000000, 0.000000)">
+                                            <mask id="mask-13" fill="white">
+                                                <use xlink:href="#path-12"></use>
+                                            </mask>
+                                            <g id="Background"></g>
+                                            <g id="Bars-/-Status-Bar-/-_Resources-/-Battery-/-100%" mask="url(#mask-13)">
+                                                <g transform="translate(70.000000, 2.000000)">
+                                                    <mask id="mask-15" fill="white">
+                                                        <use xlink:href="#path-14"></use>
+                                                    </mask>
+                                                    <g id="Background" stroke="none" fill="none"></g>
+                                                    <g id="Battery-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-15)">
+                                                        <g transform="translate(2.000000, 2.000000)">
+                                                            <mask id="mask-17" fill="white">
+                                                                <use xlink:href="#path-16"></use>
+                                                            </mask>
+                                                            <g id="Mask" stroke="none" fill="none"></g>
+                                                            <g id="19---White" stroke="none" fill="none" opacity="0.47" mask="url(#mask-17)" fill-rule="evenodd">
+                                                                <g transform="translate(-2.000000, -2.000000)" fill="#FFFFFF" id="White">
+                                                                    <rect x="0" y="0" width="30" height="16"></rect>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Battery-Fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-15)">
+                                                        <g transform="translate(4.000000, 4.000000)">
+                                                            <mask id="mask-19" fill="white">
+                                                                <use xlink:href="#path-18"></use>
+                                                            </mask>
+                                                            <g id="Mask" stroke="none" fill="none"></g>
+                                                            <g id="19---White" stroke="none" fill="none" mask="url(#mask-19)" fill-rule="evenodd">
+                                                                <g transform="translate(-4.000000, -4.000000)" fill="#FFFFFF" id="White">
+                                                                    <rect x="0" y="0" width="30" height="16"></rect>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <text id="100%" mask="url(#mask-13)" font-family="SFProText-Regular, SF Pro Text" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                                <tspan x="38.2089844" y="14.5">100%</tspan>
+                                            </text>
+                                            <g id="Bars-/-Status-Bar-/-_Resources-/-Icons-/-Bluetooth" mask="url(#mask-13)">
+                                                <g transform="translate(21.000000, 2.000000)">
+                                                    <mask id="mask-21" fill="white">
+                                                        <use xlink:href="#path-20"></use>
+                                                    </mask>
+                                                    <use id="Mask" stroke="none" fill="#030303" fill-rule="evenodd" xlink:href="#path-20"></use>
+                                                    <g id="19---White" stroke="none" fill="none" mask="url(#mask-21)" fill-rule="evenodd">
+                                                        <rect id="White" fill="#FFFFFF" x="0" y="0" width="16" height="16"></rect>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Bars-/-Status-Bar-/-_Accessories-/-Center-on-Dark" transform="translate(155.000000, 0.000000)">
+                                            <mask id="mask-23" fill="white">
+                                                <use xlink:href="#path-22"></use>
+                                            </mask>
+                                            <g id="Background"></g>
+                                            <g id="Bars-/-Status-Bar-/-_Resources-/-Icons-/-_None" mask="url(#mask-23)">
+                                                <g transform="translate(24.000000, 2.000000)">
+                                                    <mask id="mask-25" fill="white">
+                                                        <use xlink:href="#path-24"></use>
+                                                    </mask>
+                                                    <g id="Background" stroke="none" fill="none"></g>
+                                                </g>
+                                            </g>
+                                            <text id="Time" mask="url(#mask-23)" font-family="SFProText-Semibold, SF Pro Text" font-size="12" font-weight="500" fill="#FFFFFF">
+                                                <tspan x="8.23925781" y="14.5">9:41 AM</tspan>
+                                            </text>
+                                        </g>
+                                        <g id="Bars-/-Status-Bar-/-_Accessories-/-Left-on-Dark">
+                                            <mask id="mask-27" fill="white">
+                                                <use xlink:href="#path-26"></use>
+                                            </mask>
+                                            <g id="Background"></g>
+                                            <g id="Bars-/-Status-Bar-/-_Resources-/-Icons-/-Wi-Fi" mask="url(#mask-27)">
+                                                <g transform="translate(23.000000, 2.000000)">
+                                                    <mask id="mask-29" fill="white">
+                                                        <use xlink:href="#path-28"></use>
+                                                    </mask>
+                                                    <use id="Mask" stroke="none" fill="#000000" fill-rule="nonzero" xlink:href="#path-28"></use>
+                                                    <g id="19---White" stroke="none" fill="none" mask="url(#mask-29)" fill-rule="evenodd">
+                                                        <rect id="White" fill="#FFFFFF" x="0" y="0" width="19" height="16"></rect>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <g id="Bars-/-Status-Bar-/-_Resources-/-Icons-/-Signal" mask="url(#mask-27)">
+                                                <g transform="translate(4.000000, 2.000000)">
+                                                    <mask id="mask-31" fill="white">
+                                                        <use xlink:href="#path-30"></use>
+                                                    </mask>
+                                                    <use id="Mask" stroke="none" fill="#000000" fill-rule="evenodd" xlink:href="#path-30"></use>
+                                                    <g id="19---White" stroke="none" fill="none" mask="url(#mask-31)" fill-rule="evenodd">
+                                                        <g transform="translate(1.000000, 0.000000)" fill="#FFFFFF" id="White">
+                                                            <rect x="0" y="0" width="19" height="16"></rect>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
